@@ -19,13 +19,7 @@ const Featured = () => {
                   <h5 className="card-title">Featured Post</h5>
                   <p className="card-text text-success">
                     This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p className="card-text">
-                    <small className="text-warning">
-                      Last updated 3 mins ago
-                    </small>
+                    lead-in to additional content.
                   </p>
                 </div>
                 <div className="container text-center">
@@ -49,13 +43,7 @@ const Featured = () => {
                   <h5 className="card-title">Featured Post</h5>
                   <p className="card-text text-success">
                     This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <p className="card-text">
-                    <small className="text-muted">
-                      Last updated 3 mins ago
-                    </small>
+                    lead-in to additional content.
                   </p>
                 </div>
                 <div className="container text-center">

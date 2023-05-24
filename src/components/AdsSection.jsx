@@ -19,14 +19,7 @@ const AdsSection = () => {
           Our new Sony ZV-E1 is an interchangeable-lens vlog camera with a
           high-performance 35mm full-frame image sensor. Positioned at the top
           of Sony’s Vlog camera series, it gives creative vloggers who want to
-          deliver the highest quality content all the advantages of Sony’s most
-          advanced technology. In addition to an ideal blend of intuitive
-          operation optimized for vlogging and compact, lightweight mobility,
-          our ZV-E1 features Sony’s E-mount for compatibility with an extensive
-          line of top-quality lenses, a 35mm full-frame sensor that can deliver
-          cinematic imagery with wide latitude, low noise, and high sensitivity.
-          The lightweight body offers outstanding mobility while refined
-          operation gives vloggers maximum creative freedom.
+          deliver the highest quality content.
         </div>
       </div>
     </div>
