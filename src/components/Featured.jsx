@@ -3,7 +3,7 @@ import Lense from "../assets/LenseFeatured.png";
 
 const Featured = () => {
   return (
-    <div className="bg-light mt-2">
+    <div className="container-fluid bg-light mt-2">
       <div className="bg-light">
         <h1 className="text-light">Sony</h1>
       </div>
@@ -23,10 +23,16 @@ const Featured = () => {
                     longer.
                   </p>
                   <p className="card-text">
-                    <small className="text-muted">
+                    <small className="text-warning">
                       Last updated 3 mins ago
                     </small>
                   </p>
+                </div>
+                <div className="container text-center">
+                  {" "}
+                  <button className="text-center p-2" id="btt">
+                    Learn more.
+                  </button>
                 </div>
               </div>
             </div>
@@ -51,6 +57,12 @@ const Featured = () => {
                       Last updated 3 mins ago
                     </small>
                   </p>
+                </div>
+                <div className="container text-center">
+                  {" "}
+                  <button className="text-center p-2" id="btt">
+                    Learn more.
+                  </button>
                 </div>
               </div>
             </div>
