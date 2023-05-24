@@ -2,7 +2,7 @@ const AdsSection = () => {
   return (
     <div className="bg-dark container-fluid">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 p-5">
           <div className="ratio ratio-16x9">
             <iframe
               width="560"
