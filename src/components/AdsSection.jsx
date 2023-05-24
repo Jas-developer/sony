@@ -21,13 +21,18 @@ const AdsSection = () => {
             of Sony’s Vlog camera series, it gives creative vloggers who want to
             deliver the highest quality content.
           </div>
-          <div className="row p-5">
-            <div className="col-md-6 bg-warning">
-              <h1 className="text-center">First row</h1>
-            </div>
-            <div className="col-md-6 p-5 bg-primary">
-              <h1 className="text-center">Second row</h1>
-            </div>
+          <div className="text-center mt-2 p-4">
+            <button className=" p-1" id="btt">
+              Check out
+            </button>
+          </div>
+        </div>
+        <div className="row p-5">
+          <div className="col-md-6 bg-warning">
+            <h1 className="text-center">First row</h1>
+          </div>
+          <div className="col-md-6 p-5 bg-primary">
+            <h1 className="text-center">Second row</h1>
           </div>
         </div>
       </div>
