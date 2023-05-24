@@ -1,0 +1,63 @@
+
+:root {
+  --button-radius: 5px;
+  --button-width: 120px;
+  --button-font-size: 15px;
+  --button-font-weight: bold;
+  --button-or-Text-color: #0e8e16;
+  --button-border: none;
+  --button-hover-shadow: 19px 21px 40px -16px rgba(243, 235, 235, 0.97);
+  --main-text-font-size: 50px;
+  --text-font-style:font-family: 'Roboto', sans-serif;
+  --text-hover-size: 30px;
+  --border-color: rgb(218, 188, 15);
+  --featured--text-hover-size: 22px;
+  
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+#btt {
+  border-radius: var(--button-radius);
+  width: var(--button-width);
+  font-size: var(--button-font-size);
+  font-weight: var(--button-font-weight);
+  border: var(--button-border);
+  color: var(--button-or-Text-color);
+  transition: all 0.3s ease-in-out;
+}
+
+#btt:hover {
+  box-shadow: var(--button-hover-shadow);
+  font-size: 18px;
+  color:var(--button-or-Text-color)
+}
+
+#sony {
+  font-size: var(--main-text-font-size);
+  color: var(--button-or-Text-color);
+  transition: all 0.3s ease-in-out;
+
+}
+
+#sony:hover {
+  font-size: 60px;
+  color: #b4c5b6;
+  box-shadow: var(--button-hover-shadow);
+}
+
+#hero-text{
+  transition: all 0.3s ease-in-out;
+}
+
+#hero-text:hover{
+  font-size: var(--text-hover-size);
+  color: var(--button-or-Text-color);
+}
+#featured-card{
+  border-color:black;
+  transition: all 0.3s ease-in-out;
+}
+
+
