@@ -2,9 +2,12 @@ import featured from "../assets/b.png";
 import Lense from "../assets/LenseFeatured.png";
 const Featured = () => {
   return (
-    <div className="bg-light p-5">
+    <div className="bg-light mt-2">
+      <div className="bg-light">
+        <h1 className="text-light">Sony</h1>
+      </div>
       <div className="row">
-        <div className="col-md-6 mt-2 bg-success p-4">
+        <div className="col-md-6 mt-2 bg-success ">
           <div className="card bg-dark" id="featured-card">
             <div className="card-body">
               <div className="row">
@@ -28,9 +31,9 @@ const Featured = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-6 mt-2 bg-success p-4">
+        <div className="col-md-6 mt-2 bg-success ">
           <div className="card " id="featured-card">
-            <div className="card-body ">
+            <div className="card-body">
               <div className="row">
                 <div className="col-sm-7 text-center ">
                   <img src={Lense} alt="" className="p-5" />
@@ -52,6 +55,9 @@ const Featured = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <h1 className="text-light">Sony</h1>
       </div>
     </div>
   );
